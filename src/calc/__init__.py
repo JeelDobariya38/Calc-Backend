@@ -1,2 +1,1 @@
-def hello() -> str:
-    return "Hello from calc-backend!"
+from .executor import calc_execute

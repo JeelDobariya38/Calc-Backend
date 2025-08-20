@@ -1,6 +1,6 @@
 from .customerr import InvalidSyntaxError
-from .nodes import Node, NumberNode, AddNode, SubNode, MulNode, DivNode, OutNode
 from .tokens import TokenType
+from .nodes import Node, NumberNode, AddNode, SubNode, MulNode, DivNode, OutNode
 
 
 def isnumbernode(node):
