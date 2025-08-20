@@ -1,4 +1,4 @@
-from main import warning
+from src.main import warning
 import os
 from dotenv import load_dotenv
 import uvicorn

@@ -4,7 +4,7 @@ TITLE = "Calc - Math Interpreter"
 DESCRIPTION = """
 Calc API helps you do math related stuff. 🚀
 """
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 LICENSE_INFO = {
     "name": "MIT",
     "identifier": "MIT",

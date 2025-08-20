@@ -1,4 +1,4 @@
-from ..calcapi import app
+from calcweb import app
 from fastapi.testclient import TestClient
 import pytest
 

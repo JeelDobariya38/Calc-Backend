@@ -1,4 +1,4 @@
-from calccli import calc_execute
+from calc import calc_execute
 
 
 def test_whitespace_validation():

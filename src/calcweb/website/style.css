@@ -1,0 +1,21 @@
+html,
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.conatiner {
+  display: inline-block;
+}
