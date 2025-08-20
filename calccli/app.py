@@ -1,6 +1,6 @@
 from os import path
-from .customerr import CalcException
-from .executor import calc_execute
+from ..src.calc.customerr import CalcException
+from ..src.calc.executor import calc_execute
 from .utils import print_help_msg
 
 

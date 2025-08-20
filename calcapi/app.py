@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Response, status
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from calc import calc_execute
-from calc.customerr import CalcException
+from calccli import calc_execute
+from src.calc.customerr import CalcException
 from .model import Command
 from . import metadata
 

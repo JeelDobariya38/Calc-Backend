@@ -1,4 +1,4 @@
-from calc import calc_execute
+from calccli import calc_execute
 
 
 def test_addition_of_numbers():

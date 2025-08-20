@@ -1,6 +1,6 @@
 import colorama
 import os
-from calc import run_cli
+from calccli import run_cli
 from dotenv import load_dotenv
 
 load_dotenv()
