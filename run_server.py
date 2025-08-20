@@ -20,6 +20,6 @@ if __name__ == "__main__":
         port = 8080
 
     try:
-        uvicorn.run("api.app:app", host=host, port=int(port), log_level="info")
+        uvicorn.run("calcweb:app", host=host, port=int(port), log_level="info")
     except KeyboardInterrupt:
         print("Quitting the server!!!")

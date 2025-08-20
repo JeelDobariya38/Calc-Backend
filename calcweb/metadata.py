@@ -1,3 +1,5 @@
+from pathlib import Path
+
 TITLE = "Calc - Math Interpreter"
 DESCRIPTION = """
 Calc API helps you do math related stuff. 🚀
@@ -19,9 +21,6 @@ METADATA_TAGS = [
     {
         "name": "Internal",
         "description": "use for specific purpose",
-    },
-    {
-        "name": "Frontend",
-        "description": "use for website",
-    },
+    }
 ]
+WEBSITE_DIR_PATH = Path(__file__).parent.joinpath("./website")
